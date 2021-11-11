@@ -1,0 +1,80 @@
+---
+title: "DOM-1000-lake-PARAFAC"
+author: "CBG"
+date: "9 11 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# An Exploration of Fluorescence EEM PARAFAC - "1000 Lakes Study"
+A subset of the samples from the 1000-lakes survey was analysed for fluroescence and emission excitation matrices obtained. The data was analysed using PARAFAC, producing three components that we are confident. In here, the components and other variables are explored. 
+
+```{r load required packages}
+Packages <- c("plyr", "dplyr", "ggplot2",  "Rmisc")
+lapply(Packages, library, character.only = TRUE)
+```
+### The following datasets will be required
+- EEM sample list
+- UV-Vis absorbance data 
+- chemistry + catchment data
+- sample ID conversion file for the file above
+- PARAFAC components
+```{r load required data and merge the two, keep only the 501 samples}
+df1 <- read.table("EEM_sampleList.txt", sep = "\t", header = TRUE)
+df1 <- df1[,c(1:2)]
+df2 <- read.table("1000 lakes joint 29102021.txt", sep = "\t", header = TRUE)
+df3 <- read.table("A1000Lakes_all_trans.txt", sep = "\t", header = TRUE)
+x3 <- read.table("Provenavn.txt", sep = "\t", header = TRUE)
+x3$Station.Code = x3$Stasjonskode
+x3$sample = x3$Prøvenr
+x3 <- x3[,c(2,4,4:7)]
+chemy <- merge(chem1, d3, by  = "Station.Code") 
+para <- read.table("210823_Components.txt", sep = "\t", header = TRUE)
+
+```
+
+### Corrections that must be made includes
+- UV-Vis correction
+
+```{r UV-Vis correction step, subtracting the mean}
+abs1$corr <- rowMeans(subset(abs1, select = c(252:277)))
+abs2 <- sweep(abs1[,c(2:876)], 1, abs1$corr, "-")
+abs2$sample <- abs1$sample
+```
+
+### Calculating the following new variables
+- TOTC:TOTN
+- absorbency indexes: sUVa, sVISa, SAR, E2_E3, HI
+- absorbency slope ratios?
+
+```{r Calculating new variables}
+chem1 <- transform(chem1, TOC_TON = (X2019_TOC / X2019_TON))
+eemlistabschem1 <- transform(eemlistabschem, sUVa = ((X254.3999939/X2019_DOC.C)*100))
+eemlistabschem2 <- transform(eemlistabschem1, sVISa = ((X410.3999939/X2019_DOC.C)*1000))
+eemlistabschem3 <- transform(eemlistabschem2, SAR = (X254.3999939/X410.3999939))
+eemlistabschem4 <- transform(eemlistabschem3, E2_E3 = (X254.3999939/X364.7999878))
+eemlistabschem5 <- transform(eemlistabschem4, HI = (X284.7999878/X254.3999939))
+```
+
+### Merging the datasets
+- EEM list and UV-Vis abs based on sample 
+- chem/catchment data need first to be merged with conversion file
+
+```{r merging datasets}
+eemlistabs <- merge(eem,abs, by  = "sample") 
+```
+
+
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+

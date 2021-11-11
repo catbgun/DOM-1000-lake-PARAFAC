@@ -1,0 +1,598 @@
+sample	eem_location	abs_location	dilution
+DOM11194	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11196	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11311	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11313	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11317	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11449	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11528	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11533	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11534	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11536	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11537	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11549	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11552	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11590	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11631	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank1	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925		1
+DOMBlank2	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190925		1
+DOM11190	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190926	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11575	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190926	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank3	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190926		1
+DOM11188	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190930	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11339	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190930	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11372	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190930	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11381	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190930	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11382	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190930	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11385	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190930	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11389	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190930	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11392	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190930	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11393	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190930	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11394	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190930	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank6	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190930		1
+DOMBlank7	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/190930		1
+DOM11186	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191001	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11193	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191001	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11195	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191001	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11376	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191001	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11378	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191001	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11379	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191001	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11395	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191001	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11414	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191001	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11429	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191001	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11431	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191001	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank8	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191001		1
+DOMBlank9	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191001		1
+DOM11314	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191003	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11334	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191003	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11397	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191003	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11399	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191003	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11819	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191003	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11852	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191003	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11981	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191003	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12205	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191003	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13284	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191003	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank85	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191003		1
+DOM11401	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191004	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11404	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191004	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11506	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191004	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11559	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191004	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11571	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191004	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11763	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191004	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11824	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191004	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11856	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191004	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11888	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191004	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12662	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191004	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank11	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191004		1
+DOMBlank12	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191004		1
+DOM11336	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191007	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11405	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191007	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11480	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191007	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11757	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191007	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11766	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191007	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11776	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191007	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11861	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191007	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12641	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191007	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12899	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191007	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12901	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191007	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank13	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191007		1
+DOMBlank14	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191007		1
+DOM11413	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191008	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11445	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191008	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11446	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191008	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11484	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191008	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11498	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191008	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11748	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191008	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11775	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191008	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11816	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191008	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11825	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191008	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11976	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191008	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank15	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191008		1
+DOMBlank16	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191008		1
+DOM11481	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191009	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12183	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191009	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11871	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191009	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11892	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191009	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11920	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191009	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12185	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191009	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12280	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191009	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12309	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191009	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12437	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191009	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12782	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191009	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank17	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191009		1
+DOMBlank18	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191009		1
+DOM11565	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11773	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11783	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11846	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11985	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12192	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12234	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12543	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12761	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12813	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12818	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12820	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12821	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12849	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank19	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010		1
+DOMBlank20	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010		1
+DOMSTD1	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191010	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11409	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11502	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11558	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11605	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11608	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11613	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11614	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11621	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11786	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11827	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11831	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11870	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12743	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12781	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank21	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011		1
+DOMBlank22	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191011		1
+DOM11447	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11485	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11496	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11499	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11603	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11743	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11840	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11850	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11895	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12157	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12258	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12660	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12758	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12823	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank23	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014		1
+DOMBlank24	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191014		1
+DOM11828	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12017	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12080	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12173	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12249	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12538	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12544	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12561	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12572	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12575	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12587	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12646	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12650	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12664	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank25	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015		1
+DOMBlank26	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191015		1
+DOM12079	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12256	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12504	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12571	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12582	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12613	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12616	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12666	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12757	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12932	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12935	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12937	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13233	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13235	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank27	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017		1
+DOMBlank28	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191017		1
+DOM11501	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12016	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12156	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12506	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12579	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12584	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12619	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12784	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12811	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12864	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12897	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13187	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13195	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13239	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank29	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018		1
+DOMBlank30	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018		1
+DOMSTD2	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191018	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12158	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12251	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12307	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12335	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12501	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12558	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12640	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12905	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13186	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13193	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13286	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13327	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13372	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13414	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank31	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021		1
+DOMBlank32	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191021		1
+DOM11441	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11593	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11739	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11752	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11756	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11787	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11859	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11894	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11917	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11918	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11927	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11959	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11979	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11984	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank33	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022		1
+DOMBlank34	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191022		1
+DOM11604	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11978	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12027	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12029	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12036	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12039	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12042	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12049	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12050	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12059	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12067	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12089	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12095	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12097	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank35	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023		1
+DOMBlank36	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191023		1
+DOM12053	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12081	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12086	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12096	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12114	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12201	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12267	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12310	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12316	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12336	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12343	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12979	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13057	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank37	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024		1
+DOMBlank38	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191024		1
+DOM12101	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12117	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12126	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12146	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12172	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12206	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12210	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12253	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12259	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12260	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12262	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12290	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12291	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12306	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank39	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025		1
+DOMBlank40	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025		1
+DOMSTD3	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191025	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12005	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12055	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12100	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12209	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12305	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12329	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12344	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12439	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12440	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12445	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12505	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12509	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12541	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13042	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank41	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028		1
+DOMBlank42	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028		1
+DOMSTD4	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191028	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11874	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11875	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11901	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11906	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11933	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11949	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11950	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11952	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11993	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12000	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12007	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12386	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12413	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12485	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank43	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029		1
+DOMBlank44	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191029		1
+DOM11943	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12001	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12473	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12598	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12603	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12614	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12693	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12695	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12763	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12851	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12903	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12909	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13428	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13430	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank45	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030		1
+DOMBlank46	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191030		1
+DOM11407	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11740	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11902	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11904	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11915	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11934	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM11961	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12617	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12627	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13189	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13236	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13238	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13337	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank47	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031		1
+DOMBlank48	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191031		1
+DOM12282	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12486	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12602	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12622	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12629	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12636	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12682	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12785	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12812	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12815	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12847	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12941	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13373	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13374	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank49	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101		1
+DOMBlank50	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191101		1
+DOM11960	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12423	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12425	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12449	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12455	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12469	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12483	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12535	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13165	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13287	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13311	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13435	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank51	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104		1
+DOMBlank52	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191104		1
+DOM12446	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12471	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12478	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12479	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12497	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12523	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12528	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12529	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12577	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12628	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13290	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13292	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13294	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13314	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13317	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13398	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank53	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105		1
+DOMBlank54	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191105		1
+DOM12229	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191106	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12480	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191106	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12832	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191106	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13036	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191106	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13039	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191106	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13121	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191106	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13329	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191106	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13368	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191106	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank55	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191106		1
+DOMBlank56	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191106		1
+DOM12150	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12180	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12195	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12226	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12430	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12454	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12742	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12773	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12777	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12906	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13037	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13123	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13124	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13155	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13163	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13242	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13297	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank57	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107		1
+DOMBlank58	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107		1
+DOMSTD5	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191107	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12168	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12277	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12700	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12727	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12734	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12735	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12765	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12983	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13156	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13157	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13196	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13243	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13458	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13465	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	2
+DOM13466	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank59	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108		1
+DOMBlank60	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191108		1
+DOM12719	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12770	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12978	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12984	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13002	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13017	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13018	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13019	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13051	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13154	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13451	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13453	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13469	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13470	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13471	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13617	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank61	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111		1
+DOMBlank62	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191111		1
+DOM12273	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12702	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12704	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12710	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12841	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13010	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13050	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13070	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13089	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13131	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13144	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13437	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13494	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank63	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112		1
+DOMBlank64	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191112		1
+DOM12940	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12994	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12998	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12999	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13000	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13023	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13071	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13439	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13440	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13449	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13459	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank65	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113		1
+DOMBlank66	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191113		1
+DOM12839	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12858	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12862	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12917	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12931	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12933	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12955	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12964	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12980	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13069	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13079	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13138	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13443	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13600	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank67	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114		1
+DOMBlank68	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114		1
+DOMSTD6	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191114	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12860	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12867	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12916	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12923	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12962	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13091	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13107	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13130	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13137	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13445	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13586	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13597	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13598	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13602	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank69	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115		1
+DOMBlank70	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191115		1
+DOM12918	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191119	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12924	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191119	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12957	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191119	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13090	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191119	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13109	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191119	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13111	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191119	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13143	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191119	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13474	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191119	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	2
+DOMBlank71	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191119		1
+DOMBlank72	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191119		1
+DOMSTD7	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191119	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12865	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12925	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12956	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12967	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13094	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13211	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13212	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13313	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13335	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13476	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13513	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13531	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank73	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120		1
+DOMBlank74	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120		1
+DOMBlank75	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120		1
+DOMSTD8	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191120	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12725	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12729	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	2
+DOM12778	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12966	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13115	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13262	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13491	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13511	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13512	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13523	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13536	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13537	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13589	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank76	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121		1
+DOMBlank77	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121		1
+DOMBlank78	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121		1
+DOMSTD9	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191121	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12929	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13266	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13295	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13331	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13332	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13342	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13343	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13394	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13422	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13482	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13484	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13492	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13547	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13548	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13549	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13550	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank79	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122		1
+DOMBlank80	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122		1
+DOMBlank81	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122		1
+DOMSTD10	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMSTD11	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191122	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12151	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191125	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12716	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191125	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13263	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191125	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13554	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191125	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13555	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191125	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13556	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191125	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13557	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191125	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM13692	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191125	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank82	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191125		1
+DOMBlank83	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191125		1
+DOMSTD12	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191125	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOM12686	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191129	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
+DOMBlank84	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191129		1
+DOMSTD13	C:/Users/CBG/R/Projects/100 lakes StarDOM/FluorescenceEEM/191129	//niva-of5/osl-userdata$/CBG/Documents/R/Projects/100 lakes StarDOM/Absorbency spectra	1
