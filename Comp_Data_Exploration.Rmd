@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 A subset of the samples from the 1000-lakes survey was analysed for fluroescence and emission excitation matrices obtained. The data was analysed using PARAFAC, producing three components that we are confident. In here, the components and other variables are explored. 
 
 ```{r load required packages}
-Packages <- c("data.table")
+Packages <- c("data.table", "dplyr", "tidyr")
 lapply(Packages, library, character.only = TRUE)
 ```
 ### The following datasets will be required
@@ -29,6 +29,7 @@ EEMlist <- fread("EEM_sampleList.txt", sep = "\t", header = TRUE, select = c("sa
 chemcatch <- read.table("1000 lakes joint 29102021.txt", sep = "\t", header = TRUE)
 abs <- read.table("A1000Lakes_all_trans.txt", sep = "\t", header = TRUE)
 SNames <- fread("Provenavn.txt", sep = "\t", header = TRUE, select=c("Prøvenr", "Stasjonskode"))
+
 comps <- fread("210823_Components.txt", sep = "\t", header = TRUE, select=c("sample", "Comp.1", "Comp.2", "Comp.3"))
 fIndices <- read.table("210621_Indices_Smoothed.txt", sep = "\t", header = TRUE)
 bio <- read.table("210623_UiO_Biodeg_V02.txt", sep = "\t", header = TRUE)
@@ -39,26 +40,32 @@ bio <- read.table("210623_UiO_Biodeg_V02.txt", sep = "\t", header = TRUE)
 - column names adjusted for merging
 
 ```{r UV-Vis correction step, subtracting the mean}
-abs1$corr <- rowMeans(subset(abs1, select = c(252:277)))
-abs2 <- sweep(abs1[,c(2:876)], 1, abs1$corr, "-")
-abs2$sample <- abs1$sample
+abs$corr = rowMeans(subset(abs, select = c(252:277)))
+absC <- sweep(abs[,c(2:876)], 1, abs$corr, "-")
+absC$sample = abs$sample
 
-x3$Station.Code = x3$Stasjonskode
-x3$sample = x3$Prøvenr
+SNames$Station.Code = SNames$Stasjonskode
+SNames$sample = SNames$Prøvenr
 ```
+
+START HERE!!!!! MAKE MERGING PERFECTOS
 
 ### Merging the datasets
 - EEM list and UV-Vis abs based on sample 
 - chem/catchment data need first to be merged with conversion file
+- going further only with data with PARAFAC-comps
+- Note that when mering, the df listed first is the ruling (e.g. for comps data)
 
 ```{r merging datasets}
-eemlistabs <- merge(eem,abs, by  = "sample") 
-eemlistabschem <- merge(eemlistabs, chemy, by  = "sample") 
-fif <- merge(eemlistabschem5, para3, by  = "sample", all.x=TRUE) 
-f.ind <- smoothed[,c(2:3, 6:9)]
-fif1 <- merge(fif, f.ind, by="sample", all.x=TRUE)
-alldata <- merge(fif1, bio, by="sample", all.x=TRUE)
-chemy <- merge(chem1, d3, by  = "Station.Code") 
+df1 <- merge(EEMlist,abs, by  = "sample") 
+df2 <- merge(chemcatch, SNames, by  = "Station.Code") 
+df3 <- merge(df1, df2, by  = "sample") 
+df4 <- merge(comps, df3, by  = "sample", all.x=TRUE) 
+df5 <- merge(df4, fIndices, by  = "sample", all.x=TRUE) 
+df6 <- merge(df5, bio, by  = "sample", all.x=TRUE) 
+
+df7 <- df6 %>% 
+  drop_na(Comp.1)
 ```
 
 ### Calculating the following new variables
@@ -72,42 +79,42 @@ chemy <- merge(chem1, d3, by  = "Station.Code")
 - metal concentrations by C
 
 ```{r Calculating new variables}
-chem1 <- transform(chem1, TOC_TON = (X2019_TOC / X2019_TON))
+dx1 <- transform(df7, TOC_TON = (X2019_TOC / X2019_TON))
 
-eemlistabschem1 <- transform(eemlistabschem, sUVa = ((X254.3999939/X2019_DOC.C)*100))
-eemlistabschem2 <- transform(eemlistabschem1, sVISa = ((X410.3999939/X2019_DOC.C)*1000))
-eemlistabschem3 <- transform(eemlistabschem2, SAR = (X254.3999939/X410.3999939))
-eemlistabschem4 <- transform(eemlistabschem3, E2_E3 = (X254.3999939/X364.7999878))
-eemlistabschem5 <- transform(eemlistabschem4, HI = (X284.7999878/X254.3999939))
+dx2 <- transform(dx1, sUVa = ((X254.3999939/X2019_DOC.C)*100))
+dx3 <- transform(dx2, sVISa = ((X410.3999939/X2019_DOC.C)*1000))
+dx4 <- transform(dx3, SAR = (X254.3999939/X410.3999939))
+dx5 <- transform(dx4, E2_E3 = (X254.3999939/X364.7999878))
+dx6 <- transform(dx5, HI = (X284.7999878/X254.3999939))
 
-para1 <- transform(parax, Comp1.R = (Comp.1 / (Comp.1+Comp.2+Comp.3))*100)
-para2 <- transform(para1, Comp2.R = (Comp.2 / (Comp.1+Comp.2+Comp.3))*100)
-para3 <- transform(para2, Comp3.R = (Comp.3 / (Comp.1+Comp.2+Comp.3))*100)
+dx7 <- transform(dx6, Comp1.R = (Comp.1 / (Comp.1+Comp.2+Comp.3))*100)
+dx8 <- transform(dx7, Comp2.R = (Comp.2 / (Comp.1+Comp.2+Comp.3))*100)
+dx9 <- transform(dx8, Comp3.R = (Comp.3 / (Comp.1+Comp.2+Comp.3))*100)
 
-alldata2 <- transform(alldata, Comp1.C = (Comp.1 / X2019_DOC.C))
-alldata3 <- transform(alldata2, Comp2.C = (Comp.2 / X2019_DOC.C))
-alldata4 <- transform(alldata3, Comp3.C = (Comp.3 / X2019_DOC.C))
+dx10 <- transform(dx9, Comp1.C = (Comp.1 / X2019_DOC.C))
+dx11 <- transform(dx10, Comp2.C = (Comp.2 / X2019_DOC.C))
+dx12 <- transform(dx11, Comp3.C = (Comp.3 / X2019_DOC.C))
 
 #Make Biodeg parameters:DOC
-alldata9x <- transform(alldata4, dmax.C = (dmax / X2019_DOC.C))
-#alldata6 <- transform(alldata5, auc.C = (auc / DOC))
-#alldata7 <- transform(alldata6, hauc.C = (hauc / DOC))
-#alldata8 <- transform(alldata7, hwidth.C = (hwidth / DOC))
-#alldata9x <- transform(alldata8, ox_initial.C = (ox_initial / DOC))
+dx13 <- transform(dx12, dmax.C = (dmax / X2019_DOC.C))
+dx14 <- transform(dx13, auc.C = (auc / X2019_DOC.C))
+dx15 <- transform(dx14, hauc.C = (hauc / X2019_DOC.C))
+dx16 <- transform(dx15, hwidth.C = (hwidth / X2019_DOC.C))
 
 #Fluorescence peaks a, m, c C-normalised
-alldata9y <- transform(alldata9x, a.C = (a / X2019_DOC.C))
-alldata9z <- transform(alldata9y, m.C = (m / X2019_DOC.C))
-alldata9 <- transform(alldata9z, c.C = (c / X2019_DOC.C))
+dx17 <- transform(dx16, a.C = (a / X2019_DOC.C))
+dx18 <- transform(dx17, m.C = (m / X2019_DOC.C))
+dx19 <- transform(dx18, c.C = (c / X2019_DOC.C))
 
 #Metals C-normalised
-d1 <- transform(alldata9, Al.C = (X2019_Al / X2019_DOC.C))
-d2 <- transform(d1, Cd.C = (X2019_Cd / X2019_DOC.C))
-d3 <- transform(d2, Co.C = (X2019_Co / X2019_DOC.C))
-d4 <- transform(d3, Cr.C = (X2019_Cr / X2019_DOC.C))
-d5 <- transform(d4, Fe.C = (X2019_Fe / X2019_DOC.C))
-d6 <- transform(d5, Hg.C = (X2019_Hg / X2019_DOC.C))
-d7 <- transform(d6, Pb.C = (X2019_Pb/ X2019_DOC.C))
+dx20 <- transform(dx19, Al.C = (X2019_Al / X2019_DOC.C))
+dx21 <- transform(dx20, Cd.C = (X2019_Cd / X2019_DOC.C))
+dx22 <- transform(dx21, Co.C = (X2019_Co / X2019_DOC.C))
+dx23 <- transform(dx22, Cr.C = (X2019_Cr / X2019_DOC.C))
+dx24 <- transform(dx23, Fe.C = (X2019_Fe / X2019_DOC.C))
+dx25 <- transform(dx24, Hg.C = (X2019_Hg / X2019_DOC.C))
+dx26 <- transform(dx25, Pb.C = (X2019_Pb/ X2019_DOC.C))
+dx27 <- transform(dx26, Mn.C = (X2019_Mn/ X2019_DOC.C))
 ```
 
 ### Merging the datasets, make sure to only include those with PARAFAC comps!
