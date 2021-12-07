@@ -5,17 +5,25 @@ date: "9 11 2021"
 output: html_document
 ---
 ```{r setup, include=FALSE, echo=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
 # An Exploration of Fluorescence EEM PARAFAC - "1000 Lakes Study"
 A subset of the samples from the 1000-lakes survey was analysed for fluroescence and emission excitation matrices obtained. The data was analysed using PARAFAC, producing three components that we are confident. In here, the components and other variables are explored. 
 
-```{r load required packages}
+```{r load required packages, include=FALSE}
 Packages <- c("data.table", "dplyr", "tidyr", "psych",
               "ggplot2", "ggpubr", "tidyverse", "broom", "AICcmodavg")
 lapply(Packages, library, character.only = TRUE)
 ```
+
+```{r Functions needed below}
+give.n <- function(x){
+  return(c(y = median(x)*1.05, label = length(x))) 
+  # experiment with the multiplier to find the perfect position
+}
+```
+
 ### The following datasets will be required
 - EEM sample list
 - UV-Vis absorbance data 
@@ -27,7 +35,7 @@ lapply(Packages, library, character.only = TRUE)
 
 ```{r load required data and merge the two, keep only the 501 samples}
 EEMlist <- fread("EEM_sampleList.txt", sep = "\t", header = TRUE, select = c("sample"))
-chemcatch <- read.table("1000 lakes joint 29102021_2.txt", sep = "\t", header = TRUE)
+chemcatch <- read.table("1000 lakes joint 29102021_3.txt", sep = "\t", header = TRUE)
 d1 <- read.table("1000 sjøer station id og kode.csv", sep = ";", header = TRUE)
 
 abs <- read.table("A1000Lakes_all_trans.txt", sep = "\t", header = TRUE)
@@ -49,7 +57,7 @@ absC$sample = abs$sample
 
 d1$station_id = d1$ï..Station.ID
 
-SNames$station_code = SNames$Stasjonskode
+SNames$Station.Code.x = SNames$Stasjonskode
 SNames$sample = SNames$Prøvenr
 ```
 
@@ -62,7 +70,7 @@ SNames$sample = SNames$Prøvenr
 ```{r merging datasets}
 df1 <- merge(EEMlist,abs, by  = "sample") 
 dfx <- merge(chemcatch, d1, by  = "station_id") 
-df2 <- merge(dfx, SNames, by  = "station_code") 
+df2 <- merge(dfx, SNames, by  = "Station.Code.x") 
 df3 <- merge(df1, df2, by  = "sample") 
 df4 <- merge(comps, df3, by  = "sample", all.x=TRUE) 
 df5 <- merge(df4, fIndices, by  = "sample", all.x=TRUE) 
@@ -130,25 +138,176 @@ describe(dx27[ , c('X2019_pH', 'X2019_DOC.C', "forest", "peat", "freshwater",
 
 ```
 
+## Grouping data based on grouping variables to look for noamrlity etc.
+```{r grouping data}
+Group1 <- subset(dx27, Region.4 == "1-South",
+select=c(Comp1.R, Comp2.R, Comp3.R))
+Group2 <- subset(dx27, Region.4 == "2-East",
+select=c(Comp1.R, Comp2.R, Comp3.R))
+Group3 <- subset(dx27, Region.4 == "3-Mountains",
+select=c(Comp1.R, Comp2.R, Comp3.R))
+Group4 <- subset(dx27, Region.4 == "4-West",
+select=c(Comp1.R, Comp2.R, Comp3.R))
+Group5 <- subset(dx27, Region.4 == "5-Central",
+select=c(Comp1.R, Comp2.R, Comp3.R))
+Group6 <- subset(dx27, Region.4 == "6-North",
+select=c(Comp1.R, Comp2.R, Comp3.R))
+```
+
+## Testing the groped observations
+- normality of distribution (density plots and Q-Q plot, and Shapiro-Wilk normality test)
+- homogeneity of variance
+- independence of observations
+-> the data was not normally distributed. Kruskil-Wallis test instead of ANOVA?
+
+```{r density plot and Q-Q plot for normality validatio}
+library("ggpubr")
+ggdensity(Group1$Comp3.R, 
+          main = "Density plot of tooth length",
+          xlab = "Tooth length")
+
+ggqqplot(dx27$Comp1.R)
+shapiro.test(Group1$Comp1.R)
+```
 ## Statistical testing between, e.g. the regional groups
 - ANOVA: H0: no significant difference between the groups
 - One-way for component distribution and region
+- If p < 0.05 use Tukey test (t-test that adjusts for multiple comparisons) to find which group that is significantly different from the others
+- Tukey test (H0: two means are equal), if p-adj for pair is < 0.05 
+
+we see that there is significant difference among the region groups for all three components (rel %).
+Further, significant differences are identifyed between the follwoing groups for each of the components:
+Comp1: mountains-south, north-south, mountains-east, north-east, celntral-mountains, north-west, north-central
+Comp2: east-south, mountains-south, west-south, north-south, mountains-east, north-east, west-mountains, north-west, north-central
+Comp3: east-south, mountains-south, west-south, central-south, north-south, mountains-east, west-east, north-east, west-mountains, central-mountains, north-west, north-central
 
 ```{r t-testing of rel-comps between regions}
-one.way <- aov(Comp1.R ~Region.4 , data = dx27)
+one.way1 <- aov(Comp1.R ~Region.4 , data = dx27)
+one.way2 <- aov(Comp2.R ~Region.4 , data = dx27)
+one.way3 <- aov(Comp3.R ~Region.4 , data = dx27)
+summary(one.way1)
+summary(one.way2)
+summary(one.way3)
+
+TukeyHSD(one.way1, conf.level=.95)
+TukeyHSD(one.way2, conf.level=.95)
+TukeyHSD(one.way3, conf.level=.95)
 
 ggplot(dx27, aes(x=Region.4, y=Comp1.R, fill=Region.4)) + 
-    geom_boxplot()
-summary(one.way)
+    geom_boxplot()+
+  stat_summary(fun.data = give.n, geom = "text", fun = median,
+                  position = position_dodge(width = 0.75))
+
+ggplot(dx27, aes(x=Region.4, y=Comp2.R, fill=Region.4)) + 
+    geom_boxplot()+
+  stat_summary(fun.data = give.n, geom = "text", fun = median,
+                  position = position_dodge(width = 0.75))
+
+ggplot(dx27, aes(x=Region.4, y=Comp3.R, fill=Region.4)) + 
+    geom_boxplot()+
+  stat_summary(fun.data = give.n, geom = "text", fun = median,
+                  position = position_dodge(width = 0.75))
+
+```
+## PCA Explorative phase
+https://www.r-bloggers.com/2013/11/computing-and-visualizing-pca-in-r/
+- first look at correlations, include those over 0.3 for explorative PCA
+- include those not included in the beginning
+- log transform?
+- To ensure assumptions of the model (PCA and PLS) were met,
+data were normalized using log-transformations where necesssary, with skewness targeted to a min/max <0.1 
+- Since skewness and the magnitude of the variables influence the resulting PCs, it is good practice to apply skewness transformation, center and scale the variables prior to the application of PCA.
+
+You may use PC scores to reduce variables (i.e. the correlated ones). firstly, you should do a PCA on your parameters using predetermined number of PCs (lets say N= 10 PCs). Then check to see how many PCs are needed to describe 100% cumulative %variation (for example the first 5 out of 10 PCs). In each PC (1st to 5th) choose the variable with the highest score (irrespective of its positive or negative sign) as the most important variable. Since PCs are orthogonal in the PCA, selected variables will be completely independent (non-correlated).
+
+```{r Preparation for PCA: variable selection and Log-transform}
+pca1 <- subset(dx27, select=c(Region.4,
+                                latitude, altitude, lake_area_km2, basin_area_km2, lake_catchm_., developed, agriculture, forest, natural_not_forest, peat, freshwater, Avrenning, longitude, LakeTemp_19, X2019_ALK, X2019_Al.Il, X2019_IlAl_DOM, X2019_Al.R, X2019_Al, X2019_As, X2019_Ca, X2019_Ca_TOC, X2019_Cd, X2019_Cl, X2019_Co, X2019_Cr, X2019_Cu, X2019_DOC.C, X2019_FARGE, X2019_F, X2019_Fe, X2019_Fe_DOM, 
+                              X2019_Fe_TotP, X2019_Hg, X2019_KOND, X2019_K, X2019_Mg, X2019_Mn, X2019_NH4.N, X2019_NO3.N, X2019_Mg, X2019_Ni, X2019_PO4.P, X2019_Pb, X2019_SO4, X2019_SiO2, X2019_TOC, X2019_CNDOM, X2019_TOTN, X2019_TON, X2019_TOTP, X2019_Zn, X2019_pH, X2019_H, X2019_ALKE, X2019_ANC, X2019_ANCorg, del_SO4, del_SiO2, del_TOC, del_TON, del_ANCorg, del_pH, del_H, TOC_TON, dmax.C, Fe.C, Mn.C))
+
+pca1x <- na.omit(pca1)
+pca1y <- subset(pca1x, select=-c(Region.4))
+
+#Logtransform parameters and change names to "_log"
+ell <- log(pca1y+15)
+names(ell) <- paste0(names(ell), "_log")
+apply(elli, 2, function(x) any(is.na(x)))
+elli <- subset(ell, select=-c(X2019_ANCorg_log, del_ANCorg_log, X2019_ANC_log, del_ANCorg_log, del_TON_log, del_H_log))
+ncol(elli)
+```
+to make a selection of which parameters to include: redundancy analysis
+
+```{r Explore correlations}
+library(stats)
+library(ggfortify)
+
+mtcars.pca <- prcomp(elli, scale. = TRUE, center=TRUE)
+
+autoplot(mtcars.pca)
+
+print(mtcars.pca)
+summary(mtcars.pca)
+plot(mtcars.pca)
+
+
+#chart.Correlation(chemistry_metals10, histogram=TRUE, pch=19)
+
+```
+
+
+```{r PCA nice plotting}
+# http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/112-pca-principal-component-analysis-essentials/
+library(plotly)
+
+components <- mtcars.pca[["x"]]
+components <- data.frame(components)
+components <- cbind(components, pca1x$Region.4)
+components$PC2 <- -components$PC2
+
+explained_variance <- summary(mtcars.pca)[["sdev"]]
+explained_variance <- explained_variance[1:2]
+comp <- mtcars.pca[["rotation"]]
+comp[,'PC2'] <- - comp[,'PC2']
+loadings <- comp
+for (i in seq(explained_variance)){
+  loadings[,i] <- comp[,i] * explained_variance[i]
+}
+
+# 
+features = c('latitude', "altitude", "lake_area_km2")
+
+fig <- plot_ly(components, x = ~PC1, y = ~PC2, color = ~pca1x$Region.4, colors = c(), type = 'scatter', mode = 'markers') %>%
+  layout(
+    legend=list(title=list(text='color')),
+    plot_bgcolor = "#e5ecf6",
+    xaxis = list(
+      title = "0"),
+    yaxis = list(
+      title = "1"))
+for (i in seq(3)){
+  fig <- fig %>%
+    add_segments(x = 0, xend = loadings[i, 1], y = 0, yend = loadings[i, 2], line = list(color = 'black'),inherit = FALSE, showlegend = FALSE) %>%
+    add_annotations(x=loadings[i, 1], y=loadings[i, 2], ax = 0, ay = 0,text = features[i], xanchor = 'center', yanchor= 'bottom')
+}
+
+fig
+
 ```
 
 
 
-## Including Plots
 
-You can also embed plots, for example:
+```{r PCA with correlating parameters, p > 0.2}
+# PCA of all parameters but optical 
+head(df4)
+dfpca <- df4[,c(2, 7, 10, 12:13, 15, 
+              63:64, 66, 74, 89, 62,
+              33, 38, 
+              93, 96:99)]
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+mtcars.pca <- prcomp(na.omit(dfpca), scale. = TRUE)
+
 ```
+
+
 
