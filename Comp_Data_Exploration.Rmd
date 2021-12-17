@@ -13,7 +13,11 @@ A subset of the samples from the 1000-lakes survey was analysed for fluroescence
 
 ```{r load required packages, include=FALSE}
 Packages <- c("data.table", "dplyr", "tidyr", "psych",
-              "ggplot2", "ggpubr", "tidyverse", "broom", "AICcmodavg")
+              "ggplot2", "ggpubr", "tidyverse", "broom", "AICcmodavg", 
+              "cowplot", "googleway", "ggrepel","ggspatial",
+                    "sf", "rnaturalearth", "rnaturalearthdata",
+              "stats")
+#"libwgeom",
 lapply(Packages, library, character.only = TRUE)
 ```
 
@@ -131,11 +135,16 @@ dx27 <- transform(dx26, Mn.C = (X2019_Mn/ X2019_DOC.C))
 ## Making summary tables and boxplots
 - summary table of desired variables
 - can be grouped by region
+- select some catchment properties, chemical parameters influencing fluorescence
+- include A340+A275
 
 ```{r Summary table}
 describe(dx27[ , c('X2019_pH', 'X2019_DOC.C', "forest", "peat", "freshwater",
                    "del_SO4")], fast=TRUE)
+nrow(dx27)
 
+describe(dx27[ , c('Region.4', 'X2019_DOC.C', "lake_area_km2","lake_catchm_.", "X2019_pH", "X2019_Fe", "X2019_NO3.N", "forest", "peat", "freshwater",
+                   "del_SO4")], fast=TRUE)
 ```
 
 ## Grouping data based on grouping variables to look for noamrlity etc.
@@ -209,6 +218,57 @@ ggplot(dx27, aes(x=Region.4, y=Comp3.R, fill=Region.4)) +
                   position = position_dodge(width = 0.75))
 
 ```
+```{r Which samples are included/excluded?}
+# plot map with lakes
+# find cuoff e.g. at DOC/Abs
+co <- merge(comps, df3, by  = "sample", all=TRUE) 
+
+co2 <- subset(co, select = c("sample", "X2019_DOC.C", "Comp.1", "Region.4"))
+summary(co2)
+exc <- subset(co, is.na(Comp.1))
+exc2 <- subset(exc, select = c("sample", "X2019_DOC.C", "Comp.1", "X2019_NO3.N", "X2019_Fe", "Region.4"))
+exc3 <- transform(exc2, Fe.C = (X2019_Fe / X2019_DOC.C))
+
+table(exc$Region.4)
+nrow(exc)
+
+#Who are the low DOC excluded samples? wherew are they coming from?
+new_df <- subset(exc3, !(sample %in% c("DOM13465", "DOM12725", "DOM13458", "DOM13474", "DOM13294", "DOM11828", "DOM11861", "DOM11825", "DOM11824", "DOM11766", "DOM12209", "DOM13331", "DOM11314", "DOM11394", "DOM11392", "DOM11372")))
+
+nrow(new_df)
+table(new_df$Region.4)               
+nrow(exc3)
+```
+
+```{r MAPPING}
+world <- ne_countries(scale = "medium", returnclass = "sf")
+ggplot(data = world, zoom=4) +
+  geom_sf()+
+  coord_sf(xlim = c(2, 30), ylim = c(58, 71))+
+  geom_point(aes(x = longitude, y = latitude, colour=Region.4), 
+             data=dx27, size =2)+
+  labs(title = "", x = "", y = "")+
+  theme(axis.text.x = element_text(angle=0, vjust=1, size = 12),
+        axis.text.y = element_text(size= 12),
+        legend.title = element_text(size = 18),
+        axis.title.x = element_text(size = 13, margin=margin(13,0,0,0)),
+        axis.title.y = element_text(size = 13, margin=margin(0,13,0,0)),
+        legend.text=element_text(size=16),
+        plot.title = element_text(size = 24),
+        legend.key = element_rect(fill = "black", color = NA),
+        panel.background=element_rect(fill = "white", colour = "white"),
+        panel.border = element_rect(colour = "grey", fill=NA))
+ # scale_color_gradient(low="green", high="red", na.value="white")+
+  #labs(color = "Comp1 (%)")+
+  #ggtitle("Microbial humic-like (autochthonous), Comp3 (%)))")
+#labs(color = expression(paste("pCO"["2"], "(uatm)")))
+
+#expression(paste("pCO"["2"] "(",mu,"atm") 
+#(y=expression(Blah[1][d]))
+
+#ggsave("Fig1_PB.png", plot=last_plot(), device=png)
+#scale_colour_manual(values=c("deeppink2", "orchid1","turquoise1",  "turquoise3","seashell4"))
+```
 ## PCA Explorative phase
 https://www.r-bloggers.com/2013/11/computing-and-visualizing-pca-in-r/
 - first look at correlations, include those over 0.3 for explorative PCA
@@ -220,35 +280,60 @@ data were normalized using log-transformations where necesssary, with skewness t
 
 You may use PC scores to reduce variables (i.e. the correlated ones). firstly, you should do a PCA on your parameters using predetermined number of PCs (lets say N= 10 PCs). Then check to see how many PCs are needed to describe 100% cumulative %variation (for example the first 5 out of 10 PCs). In each PC (1st to 5th) choose the variable with the highest score (irrespective of its positive or negative sign) as the most important variable. Since PCs are orthogonal in the PCA, selected variables will be completely independent (non-correlated).
 
+ISSUE WITH NAS IN DATA, PARTICULARLY IN DELTAS, CAUSING ISSUE FOR PCA. For this initial testing either exclude the parameters or the observations. Need to figure out where these NAs come from!!!!
+IF removing NAs, issue with categorical variable Regions. needs to remove NAs before separating the two.
 ```{r Preparation for PCA: variable selection and Log-transform}
+#First test with only 2019 data without spectroscopica data
 pca1 <- subset(dx27, select=c(Region.4,
                                 latitude, altitude, lake_area_km2, basin_area_km2, lake_catchm_., developed, agriculture, forest, natural_not_forest, peat, freshwater, Avrenning, longitude, LakeTemp_19, X2019_ALK, X2019_Al.Il, X2019_IlAl_DOM, X2019_Al.R, X2019_Al, X2019_As, X2019_Ca, X2019_Ca_TOC, X2019_Cd, X2019_Cl, X2019_Co, X2019_Cr, X2019_Cu, X2019_DOC.C, X2019_FARGE, X2019_F, X2019_Fe, X2019_Fe_DOM, 
                               X2019_Fe_TotP, X2019_Hg, X2019_KOND, X2019_K, X2019_Mg, X2019_Mn, X2019_NH4.N, X2019_NO3.N, X2019_Mg, X2019_Ni, X2019_PO4.P, X2019_Pb, X2019_SO4, X2019_SiO2, X2019_TOC, X2019_CNDOM, X2019_TOTN, X2019_TON, X2019_TOTP, X2019_Zn, X2019_pH, X2019_H, X2019_ALKE, X2019_ANC, X2019_ANCorg, del_SO4, del_SiO2, del_TOC, del_TON, del_ANCorg, del_pH, del_H, TOC_TON, dmax.C, Fe.C, Mn.C))
 
-pca1x <- na.omit(pca1)
-pca1y <- subset(pca1x, select=-c(Region.4))
+#nrow(pca1x)
+#pca1x <- na.omit(pca1)
+pca1y <- subset(pca1, select=-c(Region.4))
+region <- pca1[, 1]
 
 #Logtransform parameters and change names to "_log"
 ell <- log(pca1y+15)
 names(ell) <- paste0(names(ell), "_log")
+elli <- subset(ell, select=-c(X2019_ANCorg_log, del_ANCorg_log, X2019_ANC_log, del_ANCorg_log, del_TON_log, 
+                              del_H_log, del_TOC_log, del_pH_log, del_SO4_log, dmax.C_log, altitude_log, del_SiO2_log, LakeTemp_19_log, Avrenning_log, X2019_Mg_log))
 apply(elli, 2, function(x) any(is.na(x)))
-elli <- subset(ell, select=-c(X2019_ANCorg_log, del_ANCorg_log, X2019_ANC_log, del_ANCorg_log, del_TON_log, del_H_log))
-ncol(elli)
+#ncol(elli)
 ```
 to make a selection of which parameters to include: redundancy analysis
 
 ```{r Explore correlations}
 library(stats)
-library(ggfortify)
+#library(ggfortify)
+#library(devtools)
+#install_github("ggbiplot", "vqv")
 
+#library(devtools)
+library(ggbiplot)
+library(vqv)
+#install_github("vqv/ggbiplot")
+
+library(devtools)
+install_github("vqv/ggbiplot")
+
+#pca1x <- na.omit(pca1y)
 mtcars.pca <- prcomp(elli, scale. = TRUE, center=TRUE)
 
-autoplot(mtcars.pca)
-
+#autoplot(mtcars.pca)
 print(mtcars.pca)
 summary(mtcars.pca)
 plot(mtcars.pca)
 
+#install_github("ggbiplot", "vqv")
+
+#g <- ggbiplot(mtcars.pca, obs.scale = 1, var.scale = 1, 
+              groups = region, ellipse = TRUE, 
+              circle = TRUE)
+#g <- g + scale_color_discrete(name = '')
+#g <- g + theme(legend.direction = 'horizontal', 
+               legend.position = 'top')
+#print(g)
 
 #chart.Correlation(chemistry_metals10, histogram=TRUE, pch=19)
 
@@ -257,6 +342,24 @@ plot(mtcars.pca)
 
 ```{r PCA nice plotting}
 # http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/112-pca-principal-component-analysis-essentials/
+
+library("devtools")
+install_github("kassambara/factoextra")
+
+library("factoextra")
+
+fviz_pca_biplot(mtcars.pca, 
+                col.ind = pca1$Region.4,  
+                addEllipses = TRUE, label = "var",
+                repel = TRUE,
+                legend.title = "Species") 
+
+
+
+
+
+
+
 library(plotly)
 
 components <- mtcars.pca[["x"]]
