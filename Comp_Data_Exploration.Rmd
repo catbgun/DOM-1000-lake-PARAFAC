@@ -41,10 +41,8 @@ give.n <- function(x){
 EEMlist <- fread("EEM_sampleList.txt", sep = "\t", header = TRUE, select = c("sample"))
 chemcatch <- read.table("1000 lakes joint 29102021_3.txt", sep = "\t", header = TRUE)
 d1 <- read.table("1000 sjøer station id og kode.csv", sep = ";", header = TRUE)
-
 abs <- read.table("A1000Lakes_all_trans.txt", sep = "\t", header = TRUE)
 SNames <- fread("Provenavn.txt", sep = "\t", header = TRUE, select=c("Prøvenr", "Stasjonskode"))
-
 comps <- fread("210823_Components.txt", sep = "\t", header = TRUE, select=c("sample", "Comp.1", "Comp.2", "Comp.3"))
 fIndices <- read.table("210621_Indices_Smoothed.txt", sep = "\t", header = TRUE)
 bio <- read.table("210623_UiO_Biodeg_V02.txt", sep = "\t", header = TRUE)
@@ -53,7 +51,6 @@ bio <- read.table("210623_UiO_Biodeg_V02.txt", sep = "\t", header = TRUE)
 ### Corrections that must be made includes
 - UV-Vis correction
 - column names adjusted for merging
-
 ```{r UV-Vis correction step, subtracting the mean}
 abs$corr = rowMeans(subset(abs, select = c(252:277)))
 absC <- sweep(abs[,c(2:876)], 1, abs$corr, "-")
@@ -70,7 +67,6 @@ SNames$sample = SNames$Prøvenr
 - chem/catchment data need first to be merged with conversion file
 - going further only with data with PARAFAC-comps
 - Note that when mering, the df listed first is the ruling (e.g. for comps data)
-
 ```{r merging datasets}
 df1 <- merge(EEMlist,abs, by  = "sample") 
 dfx <- merge(chemcatch, d1, by  = "station_id") 
@@ -79,7 +75,6 @@ df3 <- merge(df1, df2, by  = "sample")
 df4 <- merge(comps, df3, by  = "sample", all.x=TRUE) 
 df5 <- merge(df4, fIndices, by  = "sample", all.x=TRUE) 
 df6 <- merge(df5, bio, by  = "sample", all.x=TRUE) 
-
 df7 <- df6 %>% 
   drop_na(Comp.1)
 ```
@@ -92,17 +87,35 @@ df7 <- df6 %>%
 - biodeg rates by C
 - fluorescence peaks by C
 - metal concentrations by C
-
 ```{r Calculating new variables}
 dx1 <- transform(df7, TOC_TON = (X2019_TOC / X2019_TON))
-
 dx2 <- transform(dx1, sUVa = ((X254.3999939/X2019_DOC.C)*100))
 dx3 <- transform(dx2, sVISa = ((X410.3999939/X2019_DOC.C)*1000))
 dx4 <- transform(dx3, SAR = (X254.3999939/X410.3999939))
 dx5 <- transform(dx4, E2_E3 = (X254.3999939/X364.7999878))
 dx6 <- transform(dx5, HI = (X284.7999878/X254.3999939))
+#spectral slopes
+dy6 <- transform(dx6, A220_254 = (X219.1999969/X254.3999939)) #polarity
+dy7 <- transform(dy6, A250_364 = (X249.5999908/X364.7999878))#size/weight
+dy8 <- transform(dy7, A300_400 = (X300/X400)) #humification
+#the following two should also be included, but require curve fitting. See Maeve script.
+#S275-295 #photodegradation, Helms et al
+#SR
 
-dx7 <- transform(dx6, Comp1.R = (Comp.1 / (Comp.1+Comp.2+Comp.3))*100)
+#Maeve: Extracting slopes
+#Slope275_295 <-Slope275_295 %>%
+#group_by(Sample) %>%
+#do({mod = lm(Y ~ X, data =.)
+#data_frame(Slope275_295 = abs(coef(mod)[2]))})
+#Slope350_400 <-Slope350_400 %>%
+#group_by(Sample) %>%
+#do({mod = lm(Y ~ X, data =.)
+#data_frame(Slope350_400 = abs(coef(mod)[2]))})
+#Slopes<- full_join(Slope350_400,Slope275_295) %>%
+#mutate(SR=Slope275_295/Slope350_400) %>%
+#print(n=5)
+
+dx7 <- transform(dy8, Comp1.R = (Comp.1 / (Comp.1+Comp.2+Comp.3))*100)
 dx8 <- transform(dx7, Comp2.R = (Comp.2 / (Comp.1+Comp.2+Comp.3))*100)
 dx9 <- transform(dx8, Comp3.R = (Comp.3 / (Comp.1+Comp.2+Comp.3))*100)
 
@@ -121,8 +134,12 @@ dx17 <- transform(dx16, a.C = (a / X2019_DOC.C))
 dx18 <- transform(dx17, m.C = (m / X2019_DOC.C))
 dx19 <- transform(dx18, c.C = (c / X2019_DOC.C))
 
+#Others identified by Heleen
+dz20 <- transform(dx19, NO3.TOTP = (X2019_NO3.N/ X2019_TOTP))
+dz21 <- transform(dz20, TON.TOC = (X2019_TON/ X2019_TOC))
+
 #Metals C-normalised
-dx20 <- transform(dx19, Al.C = (X2019_Al / X2019_DOC.C))
+dx20 <- transform(dz21, Al.C = (X2019_Al / X2019_DOC.C))
 dx21 <- transform(dx20, Cd.C = (X2019_Cd / X2019_DOC.C))
 dx22 <- transform(dx21, Co.C = (X2019_Co / X2019_DOC.C))
 dx23 <- transform(dx22, Cr.C = (X2019_Cr / X2019_DOC.C))
@@ -168,7 +185,6 @@ select=c(Comp1.R, Comp2.R, Comp3.R))
 - homogeneity of variance
 - independence of observations
 -> the data was not normally distributed. Kruskil-Wallis test instead of ANOVA?
-
 ```{r density plot and Q-Q plot for normality validatio}
 library("ggpubr")
 ggdensity(Group1$Comp3.R, 
@@ -216,8 +232,8 @@ ggplot(dx27, aes(x=Region.4, y=Comp3.R, fill=Region.4)) +
     geom_boxplot()+
   stat_summary(fun.data = give.n, geom = "text", fun = median,
                   position = position_dodge(width = 0.75))
-
 ```
+
 ```{r Which samples are included/excluded?}
 # plot map with lakes
 # find cuoff e.g. at DOC/Abs
@@ -271,35 +287,71 @@ ggplot(data = world, zoom=4) +
 ```
 ## PCA Explorative phase
 https://www.r-bloggers.com/2013/11/computing-and-visualizing-pca-in-r/
+https://www.analyticsvidhya.com/blog/2016/03/pca-practical-guide-principal-component-analysis-python/
 - first look at correlations, include those over 0.3 for explorative PCA
+https://www.researchgate.net/post/What_are_the_criteria_for_selecting_variables_for_PCA_analysis
 - include those not included in the beginning
 - log transform?
 - To ensure assumptions of the model (PCA and PLS) were met,
 data were normalized using log-transformations where necesssary, with skewness targeted to a min/max <0.1 
 - Since skewness and the magnitude of the variables influence the resulting PCs, it is good practice to apply skewness transformation, center and scale the variables prior to the application of PCA.
+- The basic idea when using PCA as a tool for feature selection is to select variables according to the magnitude (from largest to smallest in absolute values) of their coefficients (loadings)
 
 You may use PC scores to reduce variables (i.e. the correlated ones). firstly, you should do a PCA on your parameters using predetermined number of PCs (lets say N= 10 PCs). Then check to see how many PCs are needed to describe 100% cumulative %variation (for example the first 5 out of 10 PCs). In each PC (1st to 5th) choose the variable with the highest score (irrespective of its positive or negative sign) as the most important variable. Since PCs are orthogonal in the PCA, selected variables will be completely independent (non-correlated).
 
+Note: Partial least square (PLS) is a supervised alternative to PCA. PLS assigns higher weight to variables which are strongly related to response variable to determine principal components.
+
 ISSUE WITH NAS IN DATA, PARTICULARLY IN DELTAS, CAUSING ISSUE FOR PCA. For this initial testing either exclude the parameters or the observations. Need to figure out where these NAs come from!!!!
 IF removing NAs, issue with categorical variable Regions. needs to remove NAs before separating the two.
+-ANCorg with neg values cannot be log transformed
 ```{r Preparation for PCA: variable selection and Log-transform}
 #First test with only 2019 data without spectroscopica data
-pca1 <- subset(dx27, select=c(Region.4,
-                                latitude, altitude, lake_area_km2, basin_area_km2, lake_catchm_., developed, agriculture, forest, natural_not_forest, peat, freshwater, Avrenning, longitude, LakeTemp_19, X2019_ALK, X2019_Al.Il, X2019_IlAl_DOM, X2019_Al.R, X2019_Al, X2019_As, X2019_Ca, X2019_Ca_TOC, X2019_Cd, X2019_Cl, X2019_Co, X2019_Cr, X2019_Cu, X2019_DOC.C, X2019_FARGE, X2019_F, X2019_Fe, X2019_Fe_DOM, 
-                              X2019_Fe_TotP, X2019_Hg, X2019_KOND, X2019_K, X2019_Mg, X2019_Mn, X2019_NH4.N, X2019_NO3.N, X2019_Mg, X2019_Ni, X2019_PO4.P, X2019_Pb, X2019_SO4, X2019_SiO2, X2019_TOC, X2019_CNDOM, X2019_TOTN, X2019_TON, X2019_TOTP, X2019_Zn, X2019_pH, X2019_H, X2019_ALKE, X2019_ANC, X2019_ANCorg, del_SO4, del_SiO2, del_TOC, del_TON, del_ANCorg, del_pH, del_H, TOC_TON, dmax.C, Fe.C, Mn.C))
+pca1 <- subset(dx27, select=c(Region.4, latitude,	longitude,	altitude,	lake_area_km2,	basin_area_km2,	lake_catchm_.,	min_elev,	mean_elev,	max_elev,	developed,	agriculture,	forest,	natural_not_forest,	peat,	glacier,	freshwater,	Avrenning,	ERA5.mean.annual.temperature.2019,	ERA5.total.annual.precipitation.2019,	ERA5.total.annual.runoff.2019,	X2019_ALK,	X2019_Al.Il,	X2019_Al.R,	X2019_Al,	X2019_As,	X2019_Ca,	X2019_Cd,	X2019_Cl,	X2019_Co,	X2019_Cr,	X2019_Cu,	X2019_DOC.C,	X2019_FARGE,	X2019_F,	X2019_Fe,	X2019_Hg,	X2019_KOND,	X2019_K,	X2019_Mg,	X2019_Mn,	X2019_NH4.N,	X2019_NO3.N,	X2019_Na,	X2019_Ni,	X2019_PO4.P,	X2019_Pb,	X2019_SO4,	X2019_SiO2,	X2019_TOC,	X2019_CNDOM,	X2019_TOTN,	X2019_TON,	X2019_TOTP,	X2019_Zn,	X2019_pH,	X2019_H,	X2019_LAL,	X2019_ALKE,	X2019_ANC, TOC_TON, Cd.C, Co.C, Cr.C, Fe.C, Hg.C, Pb.C, Mn.C))
 
-#nrow(pca1x)
-#pca1x <- na.omit(pca1)
-pca1y <- subset(pca1, select=-c(Region.4))
-region <- pca1[, 1]
-
+pca1x <- pca1 %>% 
+  mutate_if(is.numeric, function(x) ifelse(is.na(x), median(x, na.rm = T), x))
+pca1y <- subset(pca1x, select=-c(Region.4)) 
 #Logtransform parameters and change names to "_log"
 ell <- log(pca1y+15)
 names(ell) <- paste0(names(ell), "_log")
-elli <- subset(ell, select=-c(X2019_ANCorg_log, del_ANCorg_log, X2019_ANC_log, del_ANCorg_log, del_TON_log, 
-                              del_H_log, del_TOC_log, del_pH_log, del_SO4_log, dmax.C_log, altitude_log, del_SiO2_log, LakeTemp_19_log, Avrenning_log, X2019_Mg_log))
-apply(elli, 2, function(x) any(is.na(x)))
-#ncol(elli)
+
+#pca2 <- subset(dx27, select=c(Region.4, latitude,	longitude,	altitude,	lake_area_km2,	basin_area_km2,	lake_catchm_.,	min_elev,	mean_elev,	max_elev,	developed,	agriculture,	forest,	natural_not_forest,	peat,	glacier,	freshwater,	Avrenning,	ERA5.mean.annual.temperature.2019,	ERA5.total.annual.precipitation.2019,	ERA5.total.annual.runoff.2019,	X2019_ALK,	X2019_Al,	X2019_Ca,	X2019_Cl,	X2019_DOC.C,	X2019_FARGE,	X2019_F,	X2019_Fe,	X2019_Hg,	X2019_KOND,	X2019_K,	X2019_Mg,	X2019_Mn,	X2019_NH4.N,	X2019_NO3.N,	X2019_Na,	X2019_PO4.P,	X2019_SO4,	X2019_SiO2,	X2019_TOC,	X2019_CNDOM,	X2019_TOTN,	X2019_TON,	X2019_TOTP,	X2019_pH,	X2019_H,	X2019_LAL,	X2019_ALKE,	X2019_ANC, TOC_TON, Cd.C, Co.C, Cr.C, Fe.C, Hg.C, Pb.C, Mn.C))
+ 
+#impute missing values with median
+library(tidyverse)
+#pca2x <- pca2 %>% 
+  mutate_if(is.numeric, function(x) ifelse(is.na(x), median(x, na.rm = T), x))
+#pca2y <- subset(pca2x, select=-c(Region.4))                           
+                            
+#Logtransform parameters and change names to "_log"
+#ell <- log(pca2y+15)
+#names(ell) <- paste0(names(ell), "_log")
+
+pca3 <- subset(dx27, select=c(Region.4, Comp1.R, Comp2.R, Comp3.R, latitude,	altitude,	mean_elev,	max_elev,	agriculture,	forest,	natural_not_forest,	Avrenning,	ERA5.mean.annual.temperature.2019,	ERA5.total.annual.precipitation.2019,	ERA5.total.annual.runoff.2019,	X2019_ALK,	X2019_Al,	X2019_Ca,	X2019_Cl,	X2019_DOC.C,	X2019_FARGE,	X2019_KOND,	X2019_Mg,	X2019_NO3.N,	X2019_Na,	X2019_PO4.P,	X2019_SO4,	X2019_SiO2,	X2019_CNDOM,	X2019_TOTN,	X2019_TON,	X2019_TOTP,	X2019_H,	X2019_LAL,	X2019_ANC, TOC_TON, Fe.C, Hg.C))
+ 
+#impute missing values with median
+library(tidyverse)
+pca3x <- pca3 %>% 
+  mutate_if(is.numeric, function(x) ifelse(is.na(x), median(x, na.rm = T), x))
+pca3y <- subset(pca3x, select=-c(Region.4))                           
+                            
+#Logtransform parameters and change names to "_log"
+ell <- log(pca3y+15)
+names(ell) <- paste0(names(ell), "_log")
+
+#Looking only at the DOM quality variables++
+pca.DOM <- subset(dx27, select=c(Region.4, Comp1.R, Comp2.R, Comp3.R, sUVa, sVISa, E2_E3, HI, A220_254, A250_364, A300_400, dmax.C, a.C, m.C, c.C, NO3.TOTP, TON.TOC,
+                                 latitude,	altitude,	mean_elev,	max_elev,	agriculture,	forest,	natural_not_forest,	Avrenning,	ERA5.mean.annual.temperature.2019,	ERA5.total.annual.precipitation.2019,	ERA5.total.annual.runoff.2019,
+                                 X2019_ALK,	X2019_Al, X2019_Cl,	X2019_DOC.C,	X2019_KOND, X2019_SO4, X2019_CNDOM, Fe.C, Hg.C, X2019_H))
+
+pca.DOMx <- pca.DOM %>% 
+  mutate_if(is.numeric, function(x) ifelse(is.na(x), median(x, na.rm = T), x))
+pca.DOMy <- subset(pca.DOMx, select=-c(Region.4))                          
+              
+ell <- log(pca.DOMy+15)
+names(ell) <- paste0(names(ell), "_log")
+
+
 ```
 to make a selection of which parameters to include: redundancy analysis
 
@@ -318,25 +370,17 @@ library(devtools)
 install_github("vqv/ggbiplot")
 
 #pca1x <- na.omit(pca1y)
+elli <- na.omit(ell)
 mtcars.pca <- prcomp(elli, scale. = TRUE, center=TRUE)
 
-#autoplot(mtcars.pca)
+biplot(mtcars.pca)
+options(max.print=1000000)
 print(mtcars.pca)
 summary(mtcars.pca)
 plot(mtcars.pca)
 
-#install_github("ggbiplot", "vqv")
-
-#g <- ggbiplot(mtcars.pca, obs.scale = 1, var.scale = 1, 
-              groups = region, ellipse = TRUE, 
-              circle = TRUE)
-#g <- g + scale_color_discrete(name = '')
-#g <- g + theme(legend.direction = 'horizontal', 
-               legend.position = 'top')
-#print(g)
 
 #chart.Correlation(chemistry_metals10, histogram=TRUE, pch=19)
-
 ```
 
 
@@ -348,52 +392,15 @@ install_github("kassambara/factoextra")
 
 library("factoextra")
 
-fviz_pca_biplot(mtcars.pca, 
+fviz_pca_biplot(mtcars.pca, select.var = list(contrib = 25),
                 col.ind = pca1$Region.4,  
-                addEllipses = TRUE, label = "var",
+                addEllipses = FALSE, label = "var",
                 repel = TRUE,
                 legend.title = "Species") 
 
-
-
-
-
-
-
-library(plotly)
-
-components <- mtcars.pca[["x"]]
-components <- data.frame(components)
-components <- cbind(components, pca1x$Region.4)
-components$PC2 <- -components$PC2
-
-explained_variance <- summary(mtcars.pca)[["sdev"]]
-explained_variance <- explained_variance[1:2]
-comp <- mtcars.pca[["rotation"]]
-comp[,'PC2'] <- - comp[,'PC2']
-loadings <- comp
-for (i in seq(explained_variance)){
-  loadings[,i] <- comp[,i] * explained_variance[i]
-}
-
-# 
-features = c('latitude', "altitude", "lake_area_km2")
-
-fig <- plot_ly(components, x = ~PC1, y = ~PC2, color = ~pca1x$Region.4, colors = c(), type = 'scatter', mode = 'markers') %>%
-  layout(
-    legend=list(title=list(text='color')),
-    plot_bgcolor = "#e5ecf6",
-    xaxis = list(
-      title = "0"),
-    yaxis = list(
-      title = "1"))
-for (i in seq(3)){
-  fig <- fig %>%
-    add_segments(x = 0, xend = loadings[i, 1], y = 0, yend = loadings[i, 2], line = list(color = 'black'),inherit = FALSE, showlegend = FALSE) %>%
-    add_annotations(x=loadings[i, 1], y=loadings[i, 2], ax = 0, ay = 0,text = features[i], xanchor = 'center', yanchor= 'bottom')
-}
-
-fig
+fviz_pca_var(mtcars.pca, select.var = list(contrib = 25))
+             
+             #select.var = list(cos2 = 0.6))
 
 ```
 
