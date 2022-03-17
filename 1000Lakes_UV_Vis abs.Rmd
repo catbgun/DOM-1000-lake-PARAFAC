@@ -13,9 +13,9 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 All samples from the 1000-lakes survey were analysed for UV-Vis absorbance. Here, corrections are made (dilution, other corrections), LOQ determined from blanks, indices, slope ratios etc. calculated, and explored. 
 
 ```{r load required packages, include=FALSE}
-Packages <- c("ggplot2", "dplyr", "data.table", "tidyr")
-#"libwgeom",
+Packages <- c("ggplot2", "dplyr", "data.table", "tidyr", "tibble", "purrr")
 lapply(Packages, library, character.only = TRUE)
+
 ```
 
 ### The following datasets will be required
@@ -24,7 +24,7 @@ lapply(Packages, library, character.only = TRUE)
 - sample ID conversion file for the file above
 ```{r load required data and merge the two, keep all samples}
 #blank-corrected data from Rolf, all data, no dilution correction
-rdv <- read.table("RDV_UVVis_BlankCorrected5.txt", sep = "\t", header = TRUE)
+rdv <- read.table("RDV_UVVis_BlankCorrected6.txt", sep = "\t", header = TRUE)
 names(rdv) <- gsub(x = names(rdv), pattern = "X", replacement = "DOM")  
 
 #use ra data to find samples with signal at 254 nm < LOQ
@@ -33,8 +33,10 @@ abs <- read.table("A1000Lakes_all_trans.txt", sep = "\t", header = TRUE)
 threshhold <- 0.016  
 abst <- subset(abs, abs[, 809] > threshhold)  
 toolow <- subset(abs, abs[, 809] < threshhold) 
-nrow(toolow)
-nrow(abst)
+#print(toolow$sample)
+class(toolow$sample)
+fac <- toolow$sample
+typeof(fac)
 
 #other datasets needed
 chemcatch <- read.table("1000 lakes joint 29102021_3.txt", sep = "\t", header = TRUE)
@@ -53,123 +55,63 @@ account for absorption offset (Helms et al., 2008)
 -  multiplied by 2 following dilution? DOM12522, DOM13465, DOM13010, DOM13474 + more
 ```{r UV-Vis correction step, subtracting the mean}
 #Seems like this also needs to be done on raw data or else we get negative values?
+#Why difficult to perform this correction?? Try on old non-blank corrected data
+#Worked just fine for old data
+#abs$corr = rowMeans(subset(abs, select = c(X700:X900)))
+#absC <- sweep(abs[,c(2:877)], 1, abs$corr, "-")
+#absC$sample = abs$sample
+
+#Try again with Rolf data
+#need to transpose
 rdv2 <- t(rdv)
 colnames(rdv2) <- rdv2[1,]
 rdv2 <- rdv2[-1, ]
 colnames(rdv2) <- paste("X", colnames(rdv2),sep = "_")
-class(rdv3)
 rdv3 <- as.data.frame(rdv2)
-rdv2$corr = rowMeans(subset(rdv2, select = c(X_700:X_900)))
 
-absC <- sweep(rdv2[,c(2:1056)], 1, rdv2$corr, "-")
-absC$wavelength = rdv$wavelength
+rdv3$corr = rowMeans(subset(rdv3, select = c(X_700:X_900)))
+rdv4 <- sweep(rdv3[,c(2:877)], 1, rdv3$corr, "-")
+rdv4$sample = rdv3$sample
 
+df <- tibble::rownames_to_column(rdv4, "sample")
+df$Status <- "Ok"
+df[df$sample %in% fac,]$Status <- "LOW"
 
-
-rdv$corr = rowMeans(subset(rdv, select = c(626:876)))
-absC <- sweep(rdv2[,c(2:1056)], 1, rdv2$corr, "-")
-absC$wavelength = rdv$wavelength
-
-#write.table(absC, file = "1000Lakes_UVVis_corrected.txt", sep = "\t",
-          #  row.names = FALSE)
-
-#absS <- absC[-grep("DOMB", absC$sample), ]
-#absS2 <- absS[-grep("DOMSTD", absS$sample), ]
-#nrow(absS2)
-#my_data <- absC %>% 
-#  filter(sample %in% c("DOM12522", "DOM13465", "DOM13010", "DOM13474"))
-
-SNames$Station.Code.x = SNames$Stasjonskode
-SNames$sample = SNames$Prøvenr
-
+df$sample <- make.unique(as.character(df$sample), sep = "_")
+#SNames$Station.Code.x = SNames$Stasjonskode
+#SNames$sample = SNames$Prøvenr
 ```
 ### Have a look at the spectra and see if possible to smooth
 - can this be done for all of the samples or only those with DOC too low
 - go from wide to long format for plotting
 - smoothing: http://r-statistics.co/Loess-Regression-With-R.html
 ```{r Viasulise and smooth spectra}
-#data_long <- gather(absC, sample, value, DOM11594:DOM12686)
-data_long2 <- gather(rdv, sample, value, DOM11594:DOM12685)
+data_long3 <- gather(df, wavelength, value, X_200.7999878:X_900)
 
-#data_long <- gather(b3, wavelength, value, X604:wavelength)
-#data_long2$wavelength<-gsub("X","",data_long2$wavelength)
-data_long2$wavelength <- as.numeric(data_long2$wavelength)
+data_long3$wavelength<-gsub("X_","",as.character(data_long3$wavelength))
+data_long3$wavelength = as.numeric(data_long3$wavelength)
+data_long3 <- data_long3[ -c(2) ]
+```
 
-
-loessD <- data_long2 %>%
-  group_by(sample) %>%
-  mutate(model = loess(value ~ wavelength, span = 0.3)$fitted)
-
-
-
-
-#data_long$DOC <- as.factor(ifelse(data_long$X2019_DOC.C<1, 'very low',
-  #                           ifelse(data_long$X2019_DOC.C<5, 'low',
-  #                          ifelse(data_long$X2019_DOC.C<10, 'medium',
-  #                         ifelse(data_long$X2019_DOC.C<20, 'high', 'very high')))))
-#[which(data_long$X2019_DOC.C<5),]
-
-#ggplot(aes(x=wavelength, y=value, group=sample), data=data_long)+
-#  geom_line(size=1, data_long=subset(data_long,DOC="very low"))
-#facet_wrap(data_long$DOC)
-#  geom_line(color="red")
-  
-ggplot(aes(x=wavelength, y=value, group=sample), data=loessD)+
-  geom_line(size=1)
- 
-  ggplot(aes(x=wavelength, y=value, group=sample), data=data_long2)+
-  geom_line(size=1)
-  facet_wrap(data_long$DOC)
-  geom_line(color="red")
-
-spec = as_spectra(absC, name_idx = 1)
-spec = smooth(spec, parallel = FALSE)
-#   
-
-#select a few samples to look at smoothing
-dfs <- data_long[data_long$sample == "DOM11384", ]
-dfs <- data_long[data_long$sample == "DOM11379", ] #high abs
-dfs <- data_long[data_long$sample == "DOM11448", ] #low abs
-dfs <- data_long[data_long$sample == "DOM11187", ] #
-#| data_long$sample == "DOM11575"
-
-loessMod10 <- loess(value ~ wavelength, data=data_long2, span=0.10)
-
-
-
-
-
-loessMod10 <- loess(value ~ wavelength, data=dfs, span=0.10) # 10% smoothing span
-loessMod25 <- loess(value ~ wavelength, data=dfs, span=0.25) # 25% smoothing span
-loessMod50 <- loess(value ~ wavelength, data=dfs, span=0.50) # 50% smoothing span
-
-smoothed10 <- predict(loessMod10) 
-smoothed25 <- predict(loessMod25) 
-smoothed50 <- predict(loessMod50) 
-
-plot(dfs$value, x=dfs$wavelength, type="l", lwd=2, main="Loess Smoothing and Prediction", xlab="Date", ylab="Absobance")
-lines(smoothed10, x=dfs$wavelength, col="red", lwd=1)
-lines(smoothed25, x=dfs$wavelength, col="green", lwd=1)
-lines(smoothed50, x=dfs$wavelength, col="blue", lwd=1)
-
-
-
-
-
-  
-  
-  
+```{r Function to set loess span optimal for SSSE}
+calcSSE <- function(x){
+  loessMod <- try(loess(uempmed ~ index, data=economics, span=x), silent=T)
+  res <- try(loessMod$residuals, silent=T)
+  if(class(res)!="try-error"){
+    if((sum(res, na.rm=T) > 0)){
+      sse <- sum(res^2)  
+    }
+  }else{
+    sse <- 99999
+  }
+  return(sse)
+}
 ```
 
 
-
 ```{r Automate loess smoothing per sample}
-library(dplyr)
-library(tidyr)
-library(purrr)
-library(ggplot2)
-
-models <- data_long2 %>%
+#https://stackoverflow.com/questions/50163106/loess-regression-on-each-group-with-dplyrgroup-by
+models <- data_long3 %>%
         tidyr::nest(-sample) %>%
         dplyr::mutate(
                 # Perform loess calculation on each CpG group
@@ -184,12 +126,28 @@ results <- models %>%
         dplyr::select(-m) %>%
         tidyr::unnest()
 
+write.table(results, file = "Lake1000_UVVis_LOESS.txt", sep = "\t",
+            row.names = TRUE, col.names = NA)
+
+
 # Plot with loess line for each group
 ggplot(results, aes(x = wavelength, y = value, group = sample)) +
         geom_point() +
         geom_line(aes(y = fitted))
 
 ```
+
+
+```{r Make data ready for Rolf}
+#make separate file for fitted and measured
+#separate out fitted
+fit <- results %>%
+  select(sample, wavelength,fitted)
+
+data_wide <- spread(fit, wavelength, fitted)
+
+```
+
 
 ### Blanks and Standards
 - Extract blank samples, have visual inspection and calculate LOD/LOQ
